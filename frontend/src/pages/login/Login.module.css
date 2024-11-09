@@ -1,0 +1,92 @@
+/* Login.module.css */
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px; /* Đảm bảo khung chứa không quá rộng */
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.input, .submitButton {
+    width: 100%; /* Đảm bảo kích thước ngang của input và button bằng nhau */
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến width */
+}
+
+/* Định dạng riêng cho input */
+.input {
+    border: 1px solid #aca7a7;
+    margin-bottom: 1rem; /* Khoảng cách giữa các input */
+    background-color: #c6c0c0;
+}
+
+.input:focus {
+    border-color: #3b82f6;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-around; /* Căn đều các liên kết */
+    margin-bottom: 1rem;
+}
+
+/* Định dạng cho từng liên kết */
+.link {
+    color: #3b82f6;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #224185;
+}
+/* Định dạng riêng cho submit button */
+.submitButton {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #224185;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}

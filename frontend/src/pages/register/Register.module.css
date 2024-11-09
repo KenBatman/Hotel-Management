@@ -1,0 +1,72 @@
+/* CreateAccount.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #3b82f6;
+}
+
+.button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1a237e;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0d153f;
+}
+
+.footerText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.link {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
